@@ -26,7 +26,7 @@ const App = () => {
     }
 
     try {
-      const response = await fetch("/submit", {
+      const response = await fetch("https://obalanapi.azurewebsites.net/submit", {
 
         method: "POST",
         headers: {
