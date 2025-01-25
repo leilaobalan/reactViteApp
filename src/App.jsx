@@ -26,7 +26,7 @@ const App = () => {
     }
 
     try {
-      const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
+      const response = await fetch("/submit", {
 
         method: "POST",
         headers: {
