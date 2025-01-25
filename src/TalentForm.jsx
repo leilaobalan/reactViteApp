@@ -137,4 +137,4 @@ const TalentForm = () => {
   );
 };
 
-export default TalentForm;
+export default TalentForm
